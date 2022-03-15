@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+h1, h3 {
+    background-color: #C4C4C4;
+    color:#005677;
+    letter-spacing: 7px;
+}
+
+ul {
+    line-height: 24px;
+}
+
+footer {
+    background-color: #005677;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    height: 37px;
+    text-align: center;
+}
+
+.cursiva {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.normal {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+#fondo-header {
+    background-color: #E6E6E6;
+    text-align: center;
+}
+
+#espacio-blanco {
+    height: 100px;
+}
