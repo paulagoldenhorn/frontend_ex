@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+p.subtopic {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+
+.banner {
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    width: 100%;
+} 
+
+.nav_txt {
+    font-family: 'Nunito', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav {
+    background-color: rgba(79, 193, 90, 0.6);
+}
+
+.subtitle {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    font-size: 27px;
+    text-align: left;
+    background-color: rgba(79, 193, 90, 0.6);
+}
+
+.footer {
+    font-size: 24px;
+    text-align: center;
+}
+
+.espacio {
+    height: 145px;
+}
+
+#img_center {
+    text-align: center;
+}
+
+#perfil {
+    width: 15%;
+}
+
+#main {
+    line-height: 70px;
+}
