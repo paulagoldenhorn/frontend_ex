@@ -1,0 +1,47 @@
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #3C2313;
+    font-size: 40px;
+    text-align: center;
+}
+
+h1, h3, #setecientos {
+    font-weight: 700;
+}
+
+h3, #setecientos, .header-footer, .nav_TopBottom, #footer {
+    color: #FFFFFF;
+}
+
+.header-footer {
+    background-color: #222222;
+    color: #F3F3F3;
+}
+
+.nav_TopBottom {
+    background-color: #F0A83E;
+}
+
+.datos {
+    color: #8A8787;
+}
+
+.categorias {
+    color: #666666;
+    text-align: center;
+}
+
+#footer {
+    background-color: #3C2313;
+}
+
+#banner {
+    width: 100%;
+}
