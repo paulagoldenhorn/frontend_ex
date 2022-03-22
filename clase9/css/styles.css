@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    height: 800px;
+}
+
+h1 {
+    padding: 28px 0px 26px 28px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+h4 {
+    font-weight: lighter;
+    padding: 10px 0px 10px 10px;
+} 
+
+.logos {
+    border-radius: 100px;
+    margin-left: 70px;
+    margin-top: -80px;
+    z-index: 20;
+}
+
+.banners {
+    height: 173px;
+    width: 270px;
+    z-index: 10;
+}
+
+.boton {
+    background-color:#00669F;
+    color: white;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 10px;
+    padding: 16px 30px;
+}
+
+.corazon {
+    margin-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 20;
+}
+
+#header_top {
+    background-color: #1CD1B0;
+    height: 38px;
+}
+
+#heroes {
+    background-color: #00669F;
+    height: 101px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+#post_izq {
+    background-color: #F3F3F3;
+    display: inline-block;
+    height: 441px;
+    left: 150px;
+    position: absolute;
+    top: 250px;
+    width: 270px;
+}
+
+#post_cnt {
+    background-color: #F3F3F3;
+    display: inline-block;
+    height: 441px;
+    left: 510px;
+    position: absolute;
+    top: 250px;
+    width: 270px;
+}
+
+#post_der {
+    background-color: #F3F3F3;
+    display: inline-block;
+    height: 441px;
+    left: 870px;
+    position: absolute;
+    top: 250px;
+    width: 270px;
+}
+
+#footer {
+    background-color: #00669F;
+    color: white;
+    display: block;
+    height: 51px;
+}
+
+#p-footer {
+    padding: 16px 0px 16px 16px;
+}
