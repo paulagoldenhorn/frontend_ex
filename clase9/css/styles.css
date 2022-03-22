@@ -10,7 +10,6 @@ body {
 }
 
 main {
-    display: flex;
     height: 800px;
 }
 
