@@ -139,6 +139,7 @@ h3 {
     position: relative;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .form h4 {
@@ -155,8 +156,6 @@ h3 {
     font-size: 10px;
     font-weight: 400;
     margin-bottom: 10px;
-    
-    text-align: left;
 }
 .p-form1 {
     padding: 12px 100px;

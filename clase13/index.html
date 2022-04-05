@@ -69,17 +69,61 @@
                 </article>
             </div>
 
-            <div class="form">
-                <h4>Contáctanos</h4>
-                <p class="p-form1">Nombre y Apellido</p>
-                <p class="p-form2">Ingresá tu correo electrónico</p>
-                <p class="p-form3">Teléfono</p>
+            <form action="#" class="form" method="get">
+                    <h4>Contáctanos</h4>
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <label for="nyp">
+                            <input class="p-form1" type="text" name="nombre_y_apellido" id="nyp" placeholder="Nombre y Apellido" maxlength="50" required>
+                        </label>
 
-                <div class="botones">
-                    <p>Resetear</p>
-                    <p id="enviar">Enviar</p>
-                </div>
-            </div>
+                        <label for="email">
+                            <input class="p-form2" type="email" name="email" id="email" placeholder="Ingresá tu correo electrónico" minlength="6" maxlength="50" required>
+                        </label>
+
+                        <label for="contrasenia">
+                            <input class="--" type="password" name="pass" id="contrasenia" placeholder="Ingresá tu contraseña" maxlength="20" required>
+                        </label>
+
+                        <label for="tel">
+                            <input class="p-form3" type="tel" name="telefono" id="tel" placeholder="Teléfono" minlength="8" maxlength="14" required>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Consultas</legend>
+                        <label for="date">
+                            <p>Fecha de su consulta</p>
+                            <input class="--" type="date" name="date" id="date" value="2022-04-04" max="2030-01-01" min="2020-01-01" required>
+                        </label>
+
+                        <label for="consultas">
+                            <select name="consultas" id="consultas" required>
+                                <option value="">Seleccione el motivo de consulta</option>
+                                <option value="error">Error de compra</option>
+                                <option value="hablar">Hablar con un técnico</option>
+                                <option value="sugerencia">Sugerencia</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </label>
+
+                        <label for="textarea_consultas">Contanos un poco más</label>
+                        <textarea name="textarea_consultas" id="textarea_consultas" cols="30" rows="10" maxlength="500" required></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Valoranos</legend>
+                        <label for="valorar"></label>
+                            <input class="check" id="valorar" name="valoracion" type="radio" value="1" required><i class="fa-solid fa-star"></i>
+                            <input class="check" id="valorar" name="valoracion" type="radio" value="2" required><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            <input class="check" id="valorar" name="valoracion" type="radio" value="3" required><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </fieldset>`
+
+                    <div class="botones">
+                        <button type="reset">Resetear</button>
+                        <button type="submit" id="enviar">Enviar</button>
+                    </div>
+            </form>
         </section>
     </main>
 
