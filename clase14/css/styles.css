@@ -292,11 +292,13 @@ h3 {
 
 /* Pseudoelms */
 nav p::before {
-    content: "🐾";
+    font-family: FontAwesome;
+    content: "\f1b0";
 }
 
 .p-menu::after {
-    content: "﹀"
+    font-family: FontAwesome;
+    content: "\f107";
 }
 
 .comederos:hover {
@@ -308,18 +310,7 @@ nav p::before {
     transition: 1s;
 }
 
-
 .precios::before {
     content: "$";
 }
 
-/* h3.mrg_bnn_txt:hover {
-    border: solid 1px white;
-    background-color: #F0A83E;
-    color: white;
-    cursor: pointer;
-    transition: 1s;
-} */
-
-/* <i class="fa-solid fa-paw"></i> */
-/* <i class="fa-solid fa-chevron-down"></li> */
