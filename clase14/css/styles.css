@@ -1,0 +1,325 @@
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Reglas header */
+.thin {
+    font-size: 11px;
+}
+
+.thin, .header {
+    align-items: center;
+    background-color:#222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mrg_oferta {
+    margin: 4px 90px;
+}
+
+.ddmenu, nav {
+    display: flex;
+    margin: 4px 60px;
+}
+
+.p-menu {
+    margin-right: 20px;
+}
+
+.header {
+    background-color: #F0A83E;
+}
+
+.img_header {
+    margin: 20px 43px;
+}
+
+.p-nav {
+    margin-right: 20px;
+}
+
+/* Reglas main */
+h3 {
+    background-color: white;
+    border-radius: 5px;
+    color: #3C2313;
+    font-size: 30px;
+    font-weight: 400;
+    margin-right: 12px;
+    padding: 10px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.txt_banner {
+    align-self: flex-end;
+    color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    position: absolute;
+}
+
+.txt_banner p {
+    align-self: center;
+}
+.mrg_bnn_txt {
+    margin: 5px;
+}
+.comederos {
+    background-color: #F0A83E;
+    border-radius: 5px;
+    color: white;
+    margin: 5px;
+    padding: 15px 23px;
+}
+
+/* Reglas main/section1 */
+.main_title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 40px 0px;
+    position: relative;
+}
+
+.mrg_title {
+    margin: 10px;
+}
+
+.main_title img {
+    width: fit-content;
+}
+
+.main_title h1 {
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main_title p {
+    color: #666666;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.posts article p {
+    color: #3C2313;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.posts article .precios {
+    color: #F0A83E;
+}
+
+.form {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem;
+    text-align: center;
+}
+
+
+.form h4 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.input {
+    margin: 1rem;
+    width: 20rem;
+    text-align: left;
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: 0;
+    background-color: #3C2313;
+    color: grey;
+}
+
+.form p {
+    font-weight: bold;
+    margin: 0.5rem;
+}
+
+.valor {
+    margin: 0.58rem;
+    display: inline-block;
+}
+
+.form i {
+    color: rgb(235, 221, 29);
+}
+
+.botones {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    padding: 8px 25px;
+    display: inline-block;
+    margin: 1rem;
+}
+
+#enviar{
+    background-color:#F0A83E;
+}
+
+/* Reglas footer */
+.barra_sub {
+    align-items: center;
+    background-color: #F0A83E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+#novedades {
+    margin-left: 30px;
+}
+
+.sub {
+    display: flex;
+}
+
+#txt_sub {
+    background-color: white;
+    color:#A0A0A0;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 12px 40px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+#boton_sub {
+    background-color:#3C2313;
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 12px;
+    align-self: center;
+    border-radius: 15px;
+    margin-right: 40px;
+}
+
+.footer {
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.img_footer {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 20px 25px 20px 70px;
+    z-index: 10;
+}
+
+.mrg_logos {
+    margin: 10px;
+    position: relative;
+}
+
+.bck_footer {
+    background-color: #3C2313;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px 20px -820px;
+}
+
+.bck_footer h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.bck_footer p {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 18px;
+    color: rgba(138, 135, 135, 1);
+}
+
+.mrg_foo_txt {
+    margin-bottom: 40px;
+}
+
+.footer_logo {
+    width: fit-content;
+    align-self: flex-end;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.derechos {
+    align-items: center;
+    background-color:#222222;
+    color: white;
+    font-size: 11px;
+}
+
+.derechos p {
+    padding: 5px;
+    text-align: center;
+}
+
+/* Pseudoelms */
+nav p::before {
+    content: "🐾";
+}
+
+.p-menu::after {
+    content: "﹀"
+}
+
+.comederos:hover {
+    border: solid 1px #F0A83E;
+    background-color: white;
+    color: #F0A83E;
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+
+.precios::before {
+    content: "$";
+}
+
+/* h3.mrg_bnn_txt:hover {
+    border: solid 1px white;
+    background-color: #F0A83E;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+} */
+
+/* <i class="fa-solid fa-paw"></i> */
+/* <i class="fa-solid fa-chevron-down"></li> */
