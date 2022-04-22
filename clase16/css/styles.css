@@ -1,0 +1,108 @@
+header, footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 9rem;
+  align-items: center;
+}
+header h4, footer h4 {
+  font-size: 3rem;
+}
+header nav ul, footer nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  font-size: 1.6rem;
+}
+header nav ul li:hover, footer nav ul li:hover {
+  transform: scale(1.13);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+main {
+  margin: auto 9rem;
+}
+main section {
+  flex-wrap: wrap;
+  display: flex;
+}
+main section div {
+  width: 50%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main section div h1 {
+  font-size: 6rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 8px;
+}
+main section div p {
+  line-height: 3rem;
+}
+main section div div {
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0rem;
+}
+main section div div button {
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  border: dotted 2px;
+}
+main section div div button:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+main section div img {
+  width: 100%;
+}
+main section {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto;
+}
+main section article {
+  width: 30%;
+  background-color: aquamarine;
+  padding: 2rem 2rem 8rem 2rem;
+  line-height: 2.4rem;
+}
+main section article span {
+  color: red;
+}
+main section article p {
+  font-size: 1.4rem;
+}
+
+footer {
+  align-items: center;
+}
+footer div {
+  gap: 50px;
+  display: flex;
+}
+footer div img {
+  width: 15px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

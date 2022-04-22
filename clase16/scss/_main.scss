@@ -1,0 +1,60 @@
+main {
+    margin: auto 9rem;
+
+    section {
+        flex-wrap: wrap;
+        display: flex;
+        div {
+            width: 50%;
+            margin: auto auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h1 {
+                font-size: 6rem;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                letter-spacing: 8px;
+            }
+            p {
+                line-height: 3rem;
+            }
+            div {
+                flex-direction: row;
+                justify-content: flex-start;
+                margin: 0rem;
+                button {
+                    padding: 2rem 3rem;
+                    border-radius: 8px;
+                    border: dotted 2px;
+                }
+                button:hover {
+                    transform: scale(1.1);
+                    transition: 0.3s;
+                    cursor: pointer;
+                }
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    section {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-between;
+        margin: 3rem auto;
+        article {
+            width: 30%;
+            background-color: aquamarine;
+            padding: 2rem 2rem 8rem 2rem;
+            line-height: 2.4rem;
+            span {
+                color: red;
+            }
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    }
+}

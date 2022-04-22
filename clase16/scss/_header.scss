@@ -1,0 +1,27 @@
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 9rem;
+    align-items: center;
+    h4 {
+        font-size: 3rem;
+    }
+    nav {
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 1.5rem;
+            font-size: 1.6rem;
+            li:hover {
+                transform: scale(1.13);
+                transition: 0.3s;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+
+
