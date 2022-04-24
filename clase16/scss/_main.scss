@@ -17,6 +17,7 @@ main {
             }
             p {
                 line-height: 3rem;
+                color: $color-terciario;
             }
             div {
                 flex-direction: row;
@@ -25,7 +26,8 @@ main {
                 button {
                     padding: 2rem 3rem;
                     border-radius: 8px;
-                    border: dotted 2px;
+                    border: dotted 2px black;
+                    background-color: $color-enfasis;
                 }
                 button:hover {
                     transform: scale(1.1);
@@ -46,15 +48,30 @@ main {
         margin: 3rem auto;
         article {
             width: 30%;
-            background-color: aquamarine;
+            background-color: $color-secundario;
             padding: 2rem 2rem 8rem 2rem;
             line-height: 2.4rem;
-            span {
-                color: red;
-            }
             p {
                 font-size: 1.4rem;
             }
         }
     }
 }
+
+%resaltado_gral {
+    background-color: $color-enfasis;
+    position: absolute;
+}
+.resaltado-principal {
+    @extend %resaltado_gral;
+    width: 220px;
+    height: 40px;
+    z-index: -1;
+}
+.resaltado-secundario {
+    @extend %resaltado_gral;
+    width: 20px;
+    height: 10px;
+}
+
+
