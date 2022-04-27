@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Roboto:wght@300&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+
+.main_img_size_perfil {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+header {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.5rem 1rem;
+  border: solid 1px #A49B9B;
+}
+header h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+header img {
+  justify-self: flex-end;
+  display: inline-block;
+}
+
+main .main_section_layout_perfil {
+  padding: 0.3rem;
+  display: grid;
+  grid-template-columns: 18% 1fr 20%;
+  justify-items: start;
+  align-items: center;
+  font-size: 0.8rem;
+}
+main .main_section_layout_perfil span {
+  justify-self: end;
+  font-size: 1.5rem;
+  align-self: center;
+}
+main .main_img_size_publi {
+  width: 100px;
+  height: 100px;
+}
+main section div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 1px #A49B9B;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem;
+}
+main .main_section_layout_publi {
+  display: grid;
+  margin: 1rem 1rem 5rem 1rem;
+}
+main .main_section_layout_publi img {
+  justify-self: center;
+  width: 300px;
+  height: auto;
+}
+main .main_section_layout_publi div {
+  display: flex;
+  border: none;
+  justify-content: start;
+  gap: 10px;
+  padding: 0px;
+  margin: 1rem 0rem;
+}
+main .main_section_layout_publi p {
+  line-height: 20px;
+}
+main .main_section_layout_publi p:nth-child(4) {
+  color: #A49B9B;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

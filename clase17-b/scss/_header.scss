@@ -1,0 +1,15 @@
+header {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem 1rem;
+    border: solid 1px $color-secundario;
+    h4 {
+        font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    }
+    img {
+        justify-self: flex-end;
+        display: inline-block;
+    }
+}
