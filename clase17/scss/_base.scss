@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "header"
+    "main1"
+    "main2"
+    "footer"
+    ;
+}

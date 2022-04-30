@@ -17,6 +17,7 @@ body {
   height: 50px;
 }
 
+/*Inicio Header*/
 header {
   align-items: center;
   display: grid;
@@ -33,6 +34,8 @@ header img {
   display: inline-block;
 }
 
+/*Fin Header*/
+/*Inicio Main*/
 main .main_section_layout_perfil {
   padding: 0.3rem;
   display: grid;
@@ -83,11 +86,53 @@ main .main_section_layout_publi p:nth-child(4) {
   color: #A49B9B;
 }
 
+/*Fin Main*/
+/*Inicio Footer*/
 footer {
   background-color: black;
   color: white;
   text-align: center;
   padding: 0.5rem;
+}
+
+/*Fin Footer*/
+@media screen and (max-width: 700px) {
+  .hide {
+    display: none;
+  }
+}
+@media screen and (min-width: 700px) {
+  .hide {
+    display: inline-block;
+  }
+
+  header {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem 5rem;
+  }
+  header span {
+    display: flex;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #A49B9B;
+    border-radius: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    background-color: rgb(244, 242, 242);
+    padding: 0.8rem;
+  }
+  header span p {
+    align-self: center;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 15% 75%;
+  }
+  main .main_layout_desktop {
+    width: 500px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

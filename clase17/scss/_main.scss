@@ -1,0 +1,12 @@
+main {
+    .main_section1 {
+        grid-area: main1;
+    }
+    .main_section2 {
+        grid-area: main2;
+        .main_img_size_publi {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}

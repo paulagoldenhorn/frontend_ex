@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    padding: 28px 0px 26px 28px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 225px;
+}
+
+h4 {
+    font-weight: lighter;
+    padding: 10px 0px 10px 10px;
+} 
+
+p {
+    /* margin-left: 130px;
+    margin-right: 130px; */
+    padding: 20px;
+    margin-top: 240px;
+    position: absolute;
+    
+}
+
+section {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 800px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.logos {
+    z-index: 20;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 120px;
+    border-radius: 50%;
+}
+
+.banners {
+    height: 173px;
+    position: absolute;
+    width: 280px;
+    z-index: 10;
+}
+
+
+
+.corazon {
+    margin-top: 15px;
+    margin-left: 20px;
+    position: absolute;
+    z-index: 20;
+}
+
+#header_top {
+    align-items: center;
+    background-color: #1CD1B0;
+    display: flex;
+
+}
+
+#heroes {
+    align-items: center;
+    background-color: #00669F;
+    display: flex;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.posts {
+    background-color: #F3F3F3;
+    display:flex;
+    justify-content: center;
+    width: 280px;
+    height: 441px;
+    position: relative;
+}
+
+#footer {
+    align-items: center;
+    background-color: #00669F;
+    color: white;
+    align-items: flex-end;
+    
+    height: 50px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#p-footer {
+    padding: 16px 0px 16px 16px;
+}
+
+.prueba {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    position:absolute;
+    top: 100px;
+}
+
+.vermas {
+    background-color: #00669F;
+    color: white;
+    width: 70px;
+    height: 35px;
+    z-index: 50;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 5px;
+    padding: 1px 25px;
+    justify-content: center;
+    
+}
+
+.boton {
+    background-color:#00669F;
+    
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 10px;
+    padding: 16px 30px;
+}

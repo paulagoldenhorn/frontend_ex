@@ -1,8 +1,9 @@
+/*Inicio Main*/
 main {
     .main_section_layout_perfil {
         padding: 0.3rem;
         display: grid;
-        grid-template-columns: 18% 1fr 20% ;
+        grid-template-columns: 18% 1fr 20%;
         justify-items: start;
         align-items: center;
         font-size: 0.8rem;
@@ -51,3 +52,4 @@ main {
         }
     }
 }
+/*Fin Main*/

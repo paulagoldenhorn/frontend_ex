@@ -7,3 +7,41 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Roboto:wght@300&display=swap');
 @import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+@media screen and (max-width: 700px ) {
+    .hide {
+        display: none;
+    }
+}
+@media screen and (min-width: 700px ) {
+    .hide {
+        display: inline-block;
+    }
+    header {
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem 5rem;
+        span {
+            display: flex;
+            width: 300px;
+            height: 30px;
+            border: 1px solid $color-secundario;
+            border-radius: 5px;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.8rem;
+            background-color: rgb(244, 242, 242);
+            padding: 0.8rem;
+            p {
+                align-self: center;
+            }
+        }
+    }
+    main {
+        // background-color: rgb(244, 242, 242);
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 15% 75%;
+        .main_layout_desktop {
+            width: 500px;
+        }
+    }
+}

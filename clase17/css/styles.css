@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Roboto&display=swap");
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: "header" "main1" "main2" "footer";
+}
+
+header {
+  align-items: center;
+  grid-area: header;
+}
+header img {
+  justify-self: flex-end;
+}
+
+main .main_section1 {
+  grid-area: main1;
+}
+main .main_section2 {
+  grid-area: main2;
+}
+main .main_section2 .main_img_size_publi {
+  width: 100px;
+  height: 100px;
+}
+
+footer {
+  grid-area: footer;
+}
+
+/*# sourceMappingURL=styles.css.map */
